@@ -69,5 +69,13 @@ def full?
 def draw?
   full? && !won?
 end
+
+def over?
+  won? || full?
+end
+
+def winner
+  
+end
     
 end
