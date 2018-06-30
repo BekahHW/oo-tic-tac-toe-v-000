@@ -38,6 +38,6 @@ class TicTacToe
   end
   
   def turn_count
-    move
+    @board[index]
  end 
 end
